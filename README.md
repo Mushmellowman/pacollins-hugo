@@ -1,2 +1,0 @@
-# pacollins.github.io
-Website
