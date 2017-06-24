@@ -1,6 +1,6 @@
 baseurl = "http://www.pacollins.com/"
 languageCode = "en-us"
-title = "Patrick Collins"
+title = "Patrick A Collins"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
@@ -41,7 +41,7 @@ googleAnalytics = ""
 # parms.intro will appear on the sidebar
 # This is optional, but it's suggested to use
 [params.intro]
-    header    = "Patrick  Collins"
+    header    = "Patrick A Collins"
 
     paragraph = "Educator | Conductor | Composer | Arranger | Drill Writter"
 
@@ -62,7 +62,7 @@ googleAnalytics = ""
 # Adjust the amount of recent posts on the sidebar.
 # This is optional. The default value 5 will be used
 [params.postAmount]
-    sidebar = 2
+    sidebar = 3
 
 # Set up your menu items in the navigation bar
 # You can use identifier to prepend a font awesome icon to your text
@@ -76,24 +76,24 @@ googleAnalytics = ""
 [[menu.main]]
     name = "About"
     url = "/about"
-    identifier = "fa fa-user"
+    identifier = "fa fa-id-card-o"
     weight = 2
 
 [[menu.main]]
     name = "Music"
-    url = "/works/music"
+    url = "/music"
     identifier = "fa fa-music"
     weight = 3
 
 [[menu.main]]
     name = "Drill"
-    url = "/works/music"
+    url = "/drill"
     identifier = "fa fa-male"
     weight = 4
 
 [[menu.main]]
     name = "Programming"
-    url = "/works/programming"
+    url = "/programming"
     identifier = "fa fa-desktop"
     weight = 5
 
@@ -121,10 +121,8 @@ googleAnalytics = ""
 [social]
     github          = "pacollins"
     bitbucket       = ""
-    gitlab          = ""
     jsfiddle        = ""
     codepen         = ""
-    freecodecamp    = ""
     foursquare      = ""
     dribbble        = ""
     deviantart      = ""
