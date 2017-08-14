@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Applications on Patrick A Collins</title>
+    <link>http://www.pacollins.com/applications/</link>
+    <description>Recent content in Applications on Patrick A Collins</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.pacollins.com/applications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Band Hero</title>
+      <link>http://www.pacollins.com/applications/bandhero/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.pacollins.com/applications/bandhero/</guid>
+      <description> Band Hero </description>
+    </item>
+    
+    <item>
+      <title>HOPE GPA Calculator</title>
+      <link>http://www.pacollins.com/applications/hopegpa/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.pacollins.com/applications/hopegpa/</guid>
+      <description> HOPE GPA </description>
+    </item>
+    
+    <item>
+      <title>Walt Disney World Annual Pass Calculator</title>
+      <link>http://www.pacollins.com/applications/wdwannualpass/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.pacollins.com/applications/wdwannualpass/</guid>
+      <description> Annual Pass Calculator </description>
+    </item>
+    
+    <item>
+      <title>Walt Disney World Itinerary Template</title>
+      <link>http://www.pacollins.com/applications/wdwitinerary/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.pacollins.com/applications/wdwitinerary/</guid>
+      <description> Itinerary Template </description>
+    </item>
+    
+  </channel>
+</rss>

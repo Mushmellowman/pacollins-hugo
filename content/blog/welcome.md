@@ -15,4 +15,4 @@ linktitle = ""
 
 and welcome to my new website/blog/portfolio and whatever else I decide this becomes.
 I am currently working on developing all of the portfolio parts [Music Compositions/Arrangements](/music),
-[Drill Design](/drill), and [Programming Projects](/programming).
+[Drill Design](/drill), and [Application Projects](/application).

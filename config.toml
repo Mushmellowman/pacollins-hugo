@@ -3,9 +3,10 @@ languageCode = "en-us"
 title = "Patrick A Collins"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
-paginate = 3
+paginate = 15
 disqusShortname = "pacollins"
 googleAnalytics = ""
+pluralizeListTitles = false
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
@@ -19,7 +20,7 @@ googleAnalytics = ""
     viewMorePostLink     = "/blog/"
 
 # Optional Params
-    categoriesByCount    = true
+    categoriesByCount    = false
     includeReadingTime   = true
     # The set of favicons used are based on the write-up from this link:
     # https://github.com/audreyr/favicon-cheat-sheet
@@ -27,16 +28,14 @@ googleAnalytics = ""
     loadFavicon          = true
     faviconVersion       = "2"
 
-    # Load custom CSS or JavaScript files. This replaces the deprecated params
-    # minifiedFilesCSS and minifiedFilesJS. The variable is an array so that you
+    # Load custom CSS or JavaScript files. The variable is an array so that you
     # can load multiple files if necessary. You can also load the standard theme
     # files by adding the value, "default".
     # customCSS            = ["default", "/path/to/file"]
     # customJS             = ["default", "/path/to/file"]
 
-    # Loading min files for exampleSite
-    customCSS            = ["/css/main.min.css"]
-    customJS             = ["/js/main.min.js"]
+    customCSS            = ["default"]
+    customJS             = ["default"]
 
 # parms.intro will appear on the sidebar
 # This is optional, but it's suggested to use
@@ -45,7 +44,7 @@ googleAnalytics = ""
 
     paragraph = "Educator | Conductor | Composer | Arranger | Drill Writter"
 
-    about     = "Patrick is a music educator, techie, and Disney lover located in North Georgia."
+    about     = "Patrick is a music educator, techie, and a giant Disney lover. He is located in North Georgia."
 
 # This will also appear on the sidebar.
 # A width of less than 100px is recommended
@@ -75,43 +74,43 @@ googleAnalytics = ""
 
 [[menu.main]]
     name = "About"
-    url = "/about"
+    url = "/about/"
     identifier = "fa fa-id-card-o"
     weight = 2
 
 [[menu.main]]
     name = "Music"
-    url = "/music"
+    url = "/music/"
     identifier = "fa fa-music"
     weight = 3
 
 [[menu.main]]
     name = "Drill"
-    url = "/drill"
+    url = "/drill/"
     identifier = "fa fa-male"
     weight = 4
 
 [[menu.main]]
-    name = "Programming"
-    url = "/programming"
+    name = "Applications"
+    url = "/applications/"
     identifier = "fa fa-desktop"
     weight = 5
 
 [[menu.main]]
     name = "Blog"
-    url = "/blog"
+    url = "/blog/"
     identifier = "fa fa-newspaper-o"
     weight = 6
 
-[[menu.main]]
-    name = "Categories"
-    url = "/categories"
-    identifier = "fa fa-sitemap"
-    weight = 7
+#[[menu.main]]
+#    name = "Categories"
+#    url = "/categories/"
+#    identifier = "fa fa-sitemap"
+#    weight = 7
 
 [[menu.main]]
     name = "Contact"
-    url = "/contact"
+    url = "/contact/"
     identifier = "fa fa-envelope-o"
     weight = 8
 
@@ -142,7 +141,7 @@ googleAnalytics = ""
     reddit          = "aranace"
     pinterest       = ""
     googleplus      = ""
-    facebook        = "pacollins"
+    facebook        = ""
     facebook_admin  = ""
     twitter_domain  = ""
     twitter         = "pacollins"

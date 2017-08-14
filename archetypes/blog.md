@@ -1,9 +1,13 @@
 +++
-author = "Patrick Collins"
+author = ""
+categories = [""]
+date = ""
 description = ""
 featured = ""
-featuredpath = "date"
 featuredalt = ""
-categories = []
+featuredpath = ""
 linktitle = ""
+title = ""
+type = "post"
+
 +++
