@@ -7,7 +7,6 @@ description = "Template to create attractive itineraries for trips to Walt Disne
 featured = ""
 featuredpath = ""
 featuredalt = ""
-categories = [""]
 linktitle = ""
 platform = "Google Sheets"
 +++

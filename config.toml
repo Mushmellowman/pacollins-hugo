@@ -78,17 +78,17 @@ pluralizeListTitles = false
     identifier = "fa fa-id-card-o"
     weight = 2
 
-[[menu.main]]
-    name = "Music"
-    url = "/music/"
-    identifier = "fa fa-music"
-    weight = 3
+#[[menu.main]]
+#    name = "Music"
+#    url = "/music/"
+#    identifier = "fa fa-music"
+#    weight = 3
 
-[[menu.main]]
-    name = "Drill"
-    url = "/drill/"
-    identifier = "fa fa-male"
-    weight = 4
+#[[menu.main]]
+#    name = "Drill"
+#    url = "/drill/"
+#    identifier = "fa fa-male"
+#    weight = 4
 
 [[menu.main]]
     name = "Applications"
@@ -102,11 +102,11 @@ pluralizeListTitles = false
     identifier = "fa fa-newspaper-o"
     weight = 6
 
-#[[menu.main]]
-#    name = "Categories"
-#    url = "/categories/"
-#    identifier = "fa fa-sitemap"
-#    weight = 7
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    identifier = "fa fa-sitemap"
+    weight = 7
 
 [[menu.main]]
     name = "Contact"

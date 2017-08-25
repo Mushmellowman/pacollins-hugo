@@ -90,6 +90,7 @@ article.post footer .stats {
 }
 
     article.post p,
+    article.post ol,
     article.post h2,
     article.post h3,
     article.post h4 {
@@ -352,7 +353,7 @@ body.is-share-visible #wrapper {
         }
 
     #content blockquote, #content p, #content ul{
-        margin: 0 0 1em;
+        margin: 1em 0;
     }
 
 ul.pagination li {
@@ -382,4 +383,24 @@ ul.pagination li {
         -moz-transition: opacity .3s 0s, visibility 0s 0s;
         transition: opacity .3s 0s, visibility 0s 0s;
         opacity: .5;
+    }
+
+.fancybox {
+  max-width: 85%;
+  width: fit-content;
+  padding: .5em;
+  background: #ddd;
+  margin: auto;
+}
+
+    .fancybox a {
+      border: 0;
+    }
+
+    .fancybox .caption {
+      margin: 0;
+      line-height: .5em;
+      color: #777;
+      text-align: center;
+      font-style: italic;
     }

@@ -7,7 +7,6 @@ description = "Application to calculate the cost effectiveness of an annual pass
 featured = ""
 featuredpath = ""
 featuredalt = ""
-categories = [""]
 linktitle = ""
 platform = "Google Sheets"
 +++

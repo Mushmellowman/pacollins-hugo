@@ -7,7 +7,6 @@ description = "Application for tracking and querying student progress within the
 featured = ""
 featuredpath = ""
 featuredalt = ""
-categories = [""]
 linktitle = ""
 platform = "Google Sheets/Script"
 link = ""

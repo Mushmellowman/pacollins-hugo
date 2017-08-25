@@ -7,7 +7,6 @@ description = "Application to track and calculate HOPE/Zell Miller Scholarship G
 featured = ""
 featuredpath = ""
 featuredalt = ""
-categories = [""]
 linktitle = ""
 platform = "Google Sheets"
 link = "https://docs.google.com/spreadsheets/d/1z9jOiEnbRhmy1IFj8kh-sUU58pphs5RFtI8n7aTZcBA/edit?usp=sharing"
