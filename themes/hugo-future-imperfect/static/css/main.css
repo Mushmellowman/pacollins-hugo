@@ -1896,12 +1896,12 @@
 			border-color: #2ebaae;
 		}
 
-		input[type="text"]:focus,
-		input[type="password"]:focus,
-		input[type="email"]:focus,
-		input[type="tel"]:focus,
-		select:focus,
-		textarea:focus, {
+		input[type="text"]:focus, input[type="text"]:active,
+		input[type="password"]:focus, input[type="password"]:active,
+		input[type="email"]:focus, input[type="email"]:active,
+		input[type="tel"]:focus, input[type="tel"]:active,
+		select:focus, select:active,
+		textarea:focus, textarea:active {
 			border: solid 1px #2ebaae;
 		}
 

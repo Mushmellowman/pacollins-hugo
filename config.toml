@@ -38,6 +38,13 @@ pluralizeListTitles = false
     customCSS            = ["default"]
     customJS             = ["default"]
 
+# Disqus will take priority over staticman due to its ease of use. Feel free to check out both and decide.
+[params.staticman]
+    staticman = true
+    username  = "pacollins"
+    repo      = "pacollins-hugo"
+    branch    = "master"
+
 # parms.intro will appear on the sidebar
 # This is optional, but it's suggested to use
 [params.intro]
