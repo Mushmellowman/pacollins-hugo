@@ -1,13 +1,13 @@
 +++
 author = "Patrick A Collins"
 categories = ["General"]
-date = "2017-08-21T23:00:00-04:00"
-description = "Who, What, Why, How?"
-featured = "welcome.jpg"
+date = "2017-08-25T23:00:00-04:00"
+description = "Who am I? What is this site? Why does this site exist? and How was this site created?"
+featured = "To Static From Nothing.jpg"
 featuredalt = ""
 featuredpath = "date"
 linktitle = ""
-title = "Welcome to my Website"
+title = "To Static From Nothing"
 type = "post"
 
 +++
@@ -45,13 +45,15 @@ professional look to my email address.
 
 ## How did I create this site?
 
-| Domain Registrar | 1&1   	      | GoDaddy 	 | Google Domains 	     | Porkbun   |
-| :--------------: | :----------: | :--------: | :-------------------: | :-------: |
+#### <center>Compare Domain Registrars</center>
+
+|                  | 1&1   	      | GoDaddy 	 | Google Domains 	     | Porkbun   |
+| ---------------- | ------------ | ---------- | --------------------- | --------- |
 | New              | $0.99/yr     | $0.99/yr   | $12.00/yr             | $8.84/yr  |
 | Renewal          | $14.99/yr    | $14.99/yr	 | $12.00/yr             | $8.84/yr  |
-| Transfer         | $0.99/$14.99 | $7.99      | $12.00/yr             | $8.84     |
+| Transfer         | $0.99/$14.99 | $7.99      | $12.00                | $8.84     |
 | DNS              | Yes    	    | Yes   	   | Yes                   | Yes       |
-| Email            | 1 Free       | $2.99/mo   | $5.00/mo OR $50.00/yr | $2.00/mo  |
+| Email            | 1 Free       | $2.99/mo   | $5.00/mo</br>$50.00/yr| $2.00/mo  |
 | Email Service    | 1&1          | Office 365 | GSuite                | Porkbun   |
 | Email Forwarding | Yes          | No         | Yes                   | Yes       |
 | WHOIS Privacy    | Free         | $9.99      | Free                  | Free      |

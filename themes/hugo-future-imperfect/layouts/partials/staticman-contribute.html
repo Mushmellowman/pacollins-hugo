@@ -1,0 +1,10 @@
+<h3>Say something</h3>
+
+<form method="POST" action="https://api.staticman.net/v2/entry/pacollins/pacollins-hugo/master/comments/}">
+  <input type="hidden" name="options[redirect]" value="{{ .Permalink }}">
+  <input type="hidden" name="options[slug]" value="{{ .page.slug }}">
+  <input name="fields[name]" type="text" placeholder="Your name">
+  <input name="fields[email]" type="email" placeholder="Your email address">
+  <textarea name="fields[message]" placeholder="Your message. Feel free to use Markdown." rows="10"></textarea>
+  <input type="submit" value="Submit">
+</form>
