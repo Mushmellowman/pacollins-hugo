@@ -1,7 +1,7 @@
 <section class="post-comments">
   <h3>Comments</h3>
 
-  {{ $comments := readDir "data/comments/" }}
+  {{ $comments := readDir "data/comments" }}
   {{ $.Scratch.Add "hasComments" 0 }}
   {{ $entryId := .UniqueID }}
 
@@ -23,4 +23,24 @@
   {{ if eq ($.Scratch.Get "hasComments") 0 }}
     <p>Nothing yet.</p>
   {{ end }}
+
+  <h3>Say something</h3>
+
+  <form class="post-new-comment" method="POST" action="https://dev.staticman.net/v2/entry/pacollins/pacollins-hugo/master/comments">
+  <!--form class="post-new-comment" method="POST" action="http://localhost:8055/v2/entry/eduardoboucas/staticman-test/master/comments"-->
+    <input type="hidden" name="options[redirect]" value="{{ .Permalink }}#comment-submitted">
+    <input type="hidden" name="options[entryId]" value="{{ .UniqueID }}">
+    <input name="fields[name]" type="text" class="post-comment-field" placeholder="Your name">
+    <input name="fields[email]" type="email" class="post-comment-field" placeholder="Your email address">
+    <textarea name="fields[body]" class="post-comment-field" placeholder="Your message. Feel free to use Markdown." rows="10"></textarea>
+    <input type="submit" class="post-comment-field btn" value="Submit">
+  </form>
 </section>
+
+<div id="comment-submitted" class="dialog">
+<h3>Thank you</h3>
+  <p>Your comment has been submitted and will be published once it has been approved.</p>
+  <p><a href="https://github.com/pacollins/pacollins-hugo/pulls">Click here</a> to see the pull request you generated.</p>
+
+  <p><a href="#" class="btn">OK</a></p>
+</div>
