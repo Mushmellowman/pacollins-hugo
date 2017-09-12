@@ -13,14 +13,18 @@ pluralizeListTitles = false
     description          = "Personal Website of Patrick A Collins"
     # This will appear on the top left of the navigation bar
     navbarTitle          = "Patrick A Collins"
+    viewMorePostLink     = "/blog/"
+
+# Optional Params
+    # This will match the navbarTitle to the section of the website
+    dynamicTitles        = true
+    # RSS icon that appear on the sidebar, next to the social media buttons
+    rssAppearAtTop       = true
+    rssAppearAtBottom    = true
     # Social media buttons that appear on the sidebar
     socialAppearAtTop    = true
     socialAppearAtBottom = true
     # set this to the section name if section is not post
-    viewMorePostLink     = "/blog/"
-    # Avoid setting this to true in addition to using Disqus
-
-# Optional Params
     categoriesByCount    = false
     includeReadingTime   = true
     # The set of favicons used are based on the write-up from this link:
@@ -28,6 +32,10 @@ pluralizeListTitles = false
     # Please see the favicon partial template for more information
     loadFavicon          = true
     faviconVersion       = "2"
+
+    # Disable showing the social sharing links on blog posts
+    socialShareDisabled = false
+
 
     # Load custom CSS or JavaScript files. The variable is an array so that you
     # can load multiple files if necessary. You can also load the standard theme

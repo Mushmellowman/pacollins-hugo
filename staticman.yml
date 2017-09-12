@@ -58,28 +58,8 @@ comments:
   transforms:
     email: md5
 
+  # View the README at https://github.com/eduardoboucas/staticman-recaptcha
   reCaptcha:
     enabled: true
     siteKey: "6LeoGzAUAAAAAEQyc2O1okFJPFsYFgryXvpLkFJ1"
     secret: "A2bqZay+pf0qOpY/GARlzqV7Bq9U4JzQhipNYlh44Zd7+aGYFc+5hArV5zVXl1tVHtPPL/o1BCDhy6EKiBP8eupxN4o1ISpbk5bpREJTPVgA+zSDiPmfJ4U6JNjmp752gjLcv4JOvJYzNeRnu23ZjjbT497f5EIdWRGBJGa/OHA="
-
-# posts:
-#  allowedFields: ["title", "body"]
-#  allowedOrigins: ["localhost", "hugo.staticman.net"]
-#  branch: "master"
-#  generatedFields:
-#    date:
-#      type: date
-#    slug:
-#      type: slugify
-#      options:
-#        field: title
-#    tags: ["user-generated"]
-#  format: "frontmatter"
-#  moderation: true
-#  name: "Hugo + Staticman"
-#  path: "content/post"
-#  filename: "{fields.slug}"
-#  requiredFields: ["title", "body"]
-#  transforms:
-#    body: "frontmatterContent"
