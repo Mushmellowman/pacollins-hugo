@@ -1,5 +1,5 @@
 +++
-type = "applications"
+type = "itemized"
 author = "Patrick Collins"
 date = "2017-06-22"
 title = "HOPE GPA Calculator"
@@ -8,7 +8,7 @@ featured = ""
 featuredpath = ""
 featuredalt = ""
 linktitle = ""
-platform = "Google Sheets"
+format = "Google Sheets"
 link = "https://docs.google.com/spreadsheets/d/1z9jOiEnbRhmy1IFj8kh-sUU58pphs5RFtI8n7aTZcBA/edit?usp=sharing"
 +++
 

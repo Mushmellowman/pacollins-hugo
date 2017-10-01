@@ -1,7 +1,7 @@
 +++
 author = "Patrick A Collins"
 categories = ["General"]
-date = "2017-08-25T23:00:00-04:00"
+date = "2017-09-12T19:00:00-05:00"
 description = "Who am I? What is this site? Why does this site exist? and How was this site created?"
 featured = "ToStaticFromNothing.jpg"
 featuredalt = ""

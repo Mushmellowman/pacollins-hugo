@@ -1,5 +1,5 @@
 +++
-type = "applications"
+type = "itemized"
 author = "Patrick Collins"
 date = "2017-06-22"
 title = "Band Hero"
@@ -8,7 +8,7 @@ featured = ""
 featuredpath = ""
 featuredalt = ""
 linktitle = ""
-platform = "Google Sheets/Script"
+format = "Google Sheets/Script"
 link = ""
 +++
 

@@ -6,4 +6,5 @@ featuredpath = "drill"
 featuredalt = ""
 categories = []
 linktitle = ""
+type = "itemized"
 +++

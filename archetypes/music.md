@@ -6,4 +6,5 @@ featuredpath = "music"
 featuredalt = ""
 categories = []
 linktitle = ""
+type = "itemized"
 +++
