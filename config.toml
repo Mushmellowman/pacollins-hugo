@@ -1,4 +1,4 @@
-baseurl = "http://www.pacollins.com/"
+baseurl = "https://www.pacollins.com/"
 languageCode = "en-us"
 title = "Patrick A Collins"
 theme = "hugo-future-imperfect"
