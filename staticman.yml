@@ -60,6 +60,6 @@ comments:
 
   # View the README at https://github.com/eduardoboucas/staticman-recaptcha
   reCaptcha:
-    enabled: true
-    siteKey: "6LeoGzAUAAAAAEQyc2O1okFJPFsYFgryXvpLkFJ1"
-    secret: "A2bqZay+pf0qOpY/GARlzqV7Bq9U4JzQhipNYlh44Zd7+aGYFc+5hArV5zVXl1tVHtPPL/o1BCDhy6EKiBP8eupxN4o1ISpbk5bpREJTPVgA+zSDiPmfJ4U6JNjmp752gjLcv4JOvJYzNeRnu23ZjjbT497f5EIdWRGBJGa/OHA="
+    enabled: false
+    siteKey: ""
+    secret: ""

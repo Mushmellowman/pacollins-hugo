@@ -45,6 +45,13 @@ pluralizeListTitles = false
     customCSS            = ["default"]
     customJS             = ["default"]
 
+    # options for highlight.js (version, additional languages, and theme)
+    disable_highlight = false # set to true to disable Highlight
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["json", "toml", "css", "html", "shell", "js"]
+    highlightjsTheme = "github"
+
 # Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
 # due to its ease of use. Feel free to check out both and decide what you would
 # prefer to use. See Staticman.yml for additional settings.
@@ -56,12 +63,16 @@ pluralizeListTitles = false
     repo      = "pacollins-hugo"
     branch    = "master"
 
+    [params.staticman.recaptcha]
+      sitekey = "6LeoGzAUAAAAAEQyc2O1okFJPFsYFgryXvpLkFJ1"
+      secret  = "A2bqZay+pf0qOpY/GARlzqV7Bq9U4JzQhipNYlh44Zd7+aGYFc+5hArV5zVXl1tVHtPPL/o1BCDhy6EKiBP8eupxN4o1ISpbk5bpREJTPVgA+zSDiPmfJ4U6JNjmp752gjLcv4JOvJYzNeRnu23ZjjbT497f5EIdWRGBJGa/OHA="
+
     # These are optional params related to the sidebar. They are recommended, but not
     # required for proper functionality. HTML is supported within the params.
 [params.intro]
     header    = "Patrick A Collins"
 
-    paragraph = "Educator | Conductor | Composer | Arranger | Drill Writter"
+    paragraph = "Educator | Composer | Drill Designer"
 
     about     = "Patrick is a music educator, techie, and a giant Disney lover. He is located in North Georgia."
 
@@ -151,13 +162,14 @@ pluralizeListTitles = false
     medium          = ""
     # Professional/Business Oriented Communities
     linkedin        = "pacollins1"
+    linkedin_company= ""
     foursquare      = ""
     xing            = ""
     slideshare      = ""
     # Social Networks
     facebook        = ""
     googleplus      = ""
-    reddit          = "aranace"
+    reddit          = ""
     youtube         = ""
     vimeo           = ""
     whatsapp        = "" # WhatsApp Number
@@ -166,11 +178,14 @@ pluralizeListTitles = false
       qq              = "" # User ID Number
     instagram       = "patrickacollins"
     tumblr          = ""
-    twitter         = "pacollins"
+    twitter         = ""
     skype           = ""
     snapchat        = ""
     pinterest       = ""
     telegram        = ""
     vine            = ""
+    googlescholar    = ""
+    orcid            = ""
+    researchgate     = ""
     # Email
     email           = "patrick@pacollins.com"
