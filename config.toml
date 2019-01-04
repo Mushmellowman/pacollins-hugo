@@ -72,7 +72,7 @@ pluralizeListTitles = false
 [params.intro]
     header    = "Patrick A Collins"
 
-    paragraph = "Educator | Composer | Drill Designer"
+    paragraph = "Composer | <b>Educator</b> | Coder"
 
     about     = "Patrick is a music educator, techie, and a giant Disney lover. He is located in North Georgia."
 
@@ -169,8 +169,8 @@ pluralizeListTitles = false
     # Social Networks
     facebook        = ""
     googleplus      = ""
-    reddit          = ""
-    youtube         = ""
+    reddit          = "pacollins"
+    youtube         = "patrickcollinsmusic"
     vimeo           = ""
     whatsapp        = "" # WhatsApp Number
       # WeChat and QQ need testing.
